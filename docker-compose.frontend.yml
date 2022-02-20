@@ -44,7 +44,7 @@ services:
           - kobocat.internal
 
   kpi:
-    image: santiagotamariz/docker_prueba_v01
+    image: kobotoolbox/kpi:2.021.47 #no funciona con mi imagen kpi
     hostname: kpi
     env_file:
       - ../kobo-env/envfile.txt
